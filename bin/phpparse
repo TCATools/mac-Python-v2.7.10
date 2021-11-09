@@ -1,0 +1,10 @@
+#!/Users/yalechen/.pyenv/versions/2.7.10/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'phply==1.0.0','console_scripts','phpparse'
+__requires__ = 'phply==1.0.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('phply==1.0.0', 'console_scripts', 'phpparse')()
+    )
